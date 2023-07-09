@@ -20,6 +20,7 @@ h2 {
   margin-bottom: 6px;
   font-size: 29px;
   color: rgb(39, 32, 68);
+  overflow-wrap: break-word;
 }
 small {
   font-weight: 600;
