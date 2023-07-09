@@ -9,6 +9,8 @@
     , initial-scale=1.0"
     />
     <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -21,16 +23,17 @@
         <option value="city">Paris</option>
         <option value="city">New York</option>
       </select>
-      <div class="city">
+
+      <div class="city" id="nyc">
         <div>
-          <h2>Baltimore</h2>
+          <h2>New YorK</h2>
           <div class="date">August 5th, 2023</div>
         </div>
         <div class="time">3:00:00<small> PM</small></div>
       </div>
-      <div class="city">
+      <div class="city" id="lax">
         <div>
-          <h2>Monterey</h2>
+          <h2>Los Angeles</h2>
           <div class="date">August 5th, 2023</div>
         </div>
         <div class="time">12:00:00<small> PM</small></div>
