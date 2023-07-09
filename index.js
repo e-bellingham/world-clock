@@ -6,8 +6,8 @@ setInterval(function () {
   let nycTime = moment().tz("America/New_York");
 
   nycDateElement.innerHTML = nycTime.format("LL");
-  nycTimeElement.innerHTML = nycTime.format("h:m:s [<small>]A[</small>]");
-}, 1000);
+  nycTimeElement.innerHTML = nycTime.format("h:m:s:SS [<small>]A[</small>]");
+}, 1);
 
 setInterval(function () {
   //Los Angeles
@@ -17,5 +17,5 @@ setInterval(function () {
   let laxTime = moment().tz("America/Los_Angeles");
 
   laxDateElement.innerHTML = laxTime.format("LL");
-  laxTimeElement.innerHTML = laxTime.format("h:m:s [<small>]A[</small>]");
-}, 1000);
+  laxTimeElement.innerHTML = laxTime.format("h:m:s:SS [<small>]A[</small>]");
+}, 1);
